@@ -44,4 +44,8 @@ public class EmployeeRepository {
     public List<Employee> getAgeGreaterTenEmployees() {
         return new ArrayList<>(employees.values()).stream().filter(employee -> employee.getAge() > 10).collect(Collectors.toList());
     }
+
+    public List<Employee> getEmployeesAbove(int ageMin) {
+        return employees.values().stream().filter(employee -> employee.getAge() > ageMin).collect(Collectors.toList());
+    }
 }

@@ -25,6 +25,11 @@ public class EmployeeController {
         return repository.getAgeGreaterTenEmployees();
     }
 
+    @GetMapping(path = "employees", params = "age")
+    public List<Employee> getEmployeesAbove(@RequestParam("age") int ageMin) {
+        return repository.getEmployeesAbove(ageMin);
+    }
+
     @PostMapping("/employees")
     public Employee addEmployee(@RequestBody Employee employee) {
         return repository.add(employee);
