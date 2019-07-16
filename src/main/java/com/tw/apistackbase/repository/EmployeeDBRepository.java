@@ -1,6 +1,6 @@
 package com.tw.apistackbase.repository;
 
-import com.tw.apistackbase.modal.Employee;
+import com.tw.apistackbase.model.Employee;
 
 import java.util.*;
 import java.util.stream.Collectors;

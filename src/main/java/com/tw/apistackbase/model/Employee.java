@@ -1,4 +1,4 @@
-package com.tw.apistackbase.modal;
+package com.tw.apistackbase.model;
 
 public class Employee {
 

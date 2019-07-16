@@ -1,7 +1,6 @@
 package com.tw.apistackbase.controller;
 
-import com.tw.apistackbase.modal.Employee;
-import com.tw.apistackbase.repository.EmployeeRepository;
+import com.tw.apistackbase.model.Employee;
 import com.tw.apistackbase.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

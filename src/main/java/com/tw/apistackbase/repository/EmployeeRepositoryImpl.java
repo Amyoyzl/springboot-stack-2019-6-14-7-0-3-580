@@ -1,6 +1,6 @@
 package com.tw.apistackbase.repository;
 
-import com.tw.apistackbase.modal.Employee;
+import com.tw.apistackbase.model.Employee;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
